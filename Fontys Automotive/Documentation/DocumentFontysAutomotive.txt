@@ -1,0 +1,24 @@
+
+Achieved Tasks:
+
+*Display frame meter : In GridScript class a new method OnGUI is added to display the fps in the left top corner. 
+*Create a trash can and import it in Unity environment.
+*Create new types of round-about 2 types and create a new type of road(two lanes).
+*Place all object on the ground and scale them respectively.
+*Place fountain in the center of the round-about.
+*Let objects be placed in the right way in the virtual world like attach to them scripts sidewalks and postlights. 
+
+
+Problems Faced
+*Difficulties with reading the code and understanding it.
+*Difficulties with the Ray-Cast and the different layers on the grid.
+*Textures used instead of buttons which is harder as they use textures names and tags to check if the textures is called.
+
+
+Future Ideas
+*Recreating the grid so the object takes the appropriate number of cells.
+*Road object take 2 cells instead of 1. New bends can be created in such way.
+*Let the left mouse button edit the different road objects as they are on the grid.
+*Let the right mouse button place simple type of roads(no signs or postlights).
+*Use buttons and event handlers instead of textures.
+

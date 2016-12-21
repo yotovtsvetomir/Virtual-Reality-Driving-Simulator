@@ -1,0 +1,28 @@
+# VPT1 - Personal Comments
+
+Ashish Kumar & Konstantin Indjov
+
+## Work Done:
+
+- Developed a new physics engine for DriveSim. Currently, the engine is concerned with turning at constant forward velocity.
+
+## Current Bugs:
+
+The X-Y translation of the velocities is not calculated properly. This results in the radius of curvature being smaller than desired.
+
+## Notes
+
+- The implementation for the calculation of forces and velocities are accurate, so the only problem lies in the translation into real X-Y coordinates.
+- All calculations are performed with fixed constant values. These were provided to us by Roel (project leader). For reference, check the MatLab files.
+- When the project is integrated with Unity, we might need to change the time step and forward velocity to accommodate to the scale of the world.
+
+## Problems Faced:
+
+- This was the first time we worked with a MatLab model.
+- The integration is done differently for different parts of the calculations, which took time to figure out.
+
+## Future Ideas:
+
+- Implement forward acceleration
+- Currently the simulation is being tested in a WinForms test app. It should work with Unity.
+- Write unit tests to speed up development and reduce time spent on testing.
